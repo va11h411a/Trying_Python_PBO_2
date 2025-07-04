@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="702px" preserveAspectRatio="none" style="width:869px;height:702px;background:#FFFFFF;" version="1.1" viewBox="0 0 869 702" width="869px" zoomAndPan="magnify"><defs/><g><!--MD5=[d28f9f10d13656aeb4e9ba7967a6ec6b]
+class konfigurasi--><g id="elem_konfigurasi"><rect codeLine="5" fill="#F1F1F1" height="123.7813" id="konfigurasi" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="163" x="82.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="126.5" y="24.9951">konfigurasi</text><line style="stroke:#181818;stroke-width:0.5;" x1="83.5" x2="244.5" y1="33.2969" y2="33.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="88.5" y="50.292">-BASE_DIR</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="88.5" y="66.5889">-NAMA_DB</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="88.5" y="82.8857">-DB_PATH</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="88.5" y="99.1826">-KATEGORI_PROBLEM</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="88.5" y="115.4795">-KATEGORI_DEFAULT</text><line style="stroke:#181818;stroke-width:0.5;" x1="83.5" x2="244.5" y1="122.7813" y2="122.7813"/></g><!--MD5=[7d249d9ecc63787a896d7505b881ec99]
+class HardwareDiagnoser--><g id="elem_HardwareDiagnoser"><rect codeLine="14" fill="#F1F1F1" height="205.2656" id="HardwareDiagnoser" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="314" x="7" y="208"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="96" y="225.9951">HardwareDiagnoser</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="320" y1="234.2969" y2="234.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="13" y="251.292">-_db_setup_done</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="320" y1="258.5938" y2="258.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="13" y="275.5889">+__init__()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="252" x="13" y="291.8857">+tambah_problem(p: Problem): bool</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="266" x="13" y="308.1826">+get_semua_problems(): list[Problem]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="289" x="13" y="324.4795">+get_dataframe_problems(...): DataFrame</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="206" x="13" y="340.7764">+hapus_problem(id: int): bool</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="276" x="13" y="357.0732">+get_frekuensi_problem(...): DataFrame</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="289" x="13" y="373.3701">+get_tren_problem_harian(...): DataFrame</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="302" x="13" y="389.667">+get_tren_problem_bulanan(...): DataFrame</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="255" x="13" y="405.9639">+get_problem_by_id(id: int): Problem</text></g><!--MD5=[6dd357750fb0136eccb22bd541e74502]
+class database--><g id="elem_database"><rect codeLine="28" fill="#F1F1F1" height="123.7813" id="database" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="256" x="356" y="248.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="452" y="266.4951">database</text><line style="stroke:#181818;stroke-width:0.5;" x1="357" x2="611" y1="274.7969" y2="274.7969"/><line style="stroke:#181818;stroke-width:0.5;" x1="357" x2="611" y1="282.7969" y2="282.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="362" y="299.792">+get_db_connection(): Connection</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="362" y="316.0889">+execute_query(...): int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="362" y="332.3857">+fetch_query(...): list/tuple</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="362" y="348.6826">+get_dataframe(...): DataFrame</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="213" x="362" y="364.9795">+setup_database_initial(): bool</text></g><!--MD5=[08770b5ff02271603200ffd0f930842d]
+class Problem--><g id="elem_Problem"><rect codeLine="37" fill="#F1F1F1" height="205.2656" id="Problem" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="143" x="412.5" y="490"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="455.5" y="507.9951">Problem</text><line style="stroke:#181818;stroke-width:0.5;" x1="413.5" x2="554.5" y1="516.2969" y2="516.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="17" x="418.5" y="533.292">-id</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="418.5" y="549.5889">-nama_problem</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="418.5" y="565.8857">-deskripsi_problem</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="418.5" y="582.1826">-kategori_problem</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="418.5" y="598.4795">-penyebab</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="418.5" y="614.7764">-solusi</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="418.5" y="631.0732">-tanggal_masuk</text><line style="stroke:#181818;stroke-width:0.5;" x1="413.5" x2="554.5" y1="638.375" y2="638.375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="418.5" y="655.3701">+__init__(...)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="418.5" y="671.667">+to_dict(): dict</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="418.5" y="687.9639">+__repr__(): str</text></g><!--MD5=[5352631408364401b71e831b74777d46]
+class streamlit_app--><g id="elem_streamlit_app"><rect codeLine="51" fill="#F1F1F1" height="123.7813" id="streamlit_app" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="215" x="647.5" y="248.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="709" y="266.4951">streamlit_app</text><line style="stroke:#181818;stroke-width:0.5;" x1="648.5" x2="861.5" y1="274.7969" y2="274.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="653.5" y="291.792">-diagnoser</text><line style="stroke:#181818;stroke-width:0.5;" x1="648.5" x2="861.5" y1="299.0938" y2="299.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="203" x="653.5" y="316.0889">+halaman_tambah_masalah()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="653.5" y="332.3857">+halaman_daftar_masalah()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="653.5" y="348.6826">+halaman_analisis_tren()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="653.5" y="364.9795">+main()</text></g><!--MD5=[928ae9c42cd324897aece866ad6d1b38]
+reverse link konfigurasi to HardwareDiagnoser--><g id="link_konfigurasi_HardwareDiagnoser"><path codeLine="60" d="M164,136.3 C164,158.37 164,183.49 164,207.62 " fill="none" id="konfigurasi-backto-HardwareDiagnoser" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="164,131.06,160,140.06,164,136.06,168,140.06,164,131.06" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="165" y="174.0669">1</text></g><!--MD5=[569503e5d9822f168945b2dc3617e416]
+link HardwareDiagnoser to Problem--><g id="link_HardwareDiagnoser_Problem"><path codeLine="61" d="M280.43,413.38 C323.02,450.64 370.07,491.81 408.19,525.17 " fill="none" id="HardwareDiagnoser-to-Problem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="412.32,528.78,408.1616,519.8521,408.55,525.4956,402.9065,525.884,412.32,528.78" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="335" y="456.0669">Mengelola</text></g><!--MD5=[8e3bbf4188b3d4cef202c3f0e7fd7cb8]
+reverse link database to Problem--><g id="link_database_Problem"><path codeLine="62" d="M484,377.89 C484,411.3 484,452.51 484,489.8 " fill="none" id="database-backto-Problem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="484,372.6,480,381.6,484,377.6,488,381.6,484,372.6" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="485" y="456.0669">1</text></g><!--MD5=[7405aba98cd2131efd4d511d44312041]
+link streamlit_app to Problem--><g id="link_streamlit_app_Problem"><path codeLine="63" d="M695.86,372.6 C655.72,414.08 602.3,469.27 559.15,513.86 " fill="none" id="streamlit_app-to-Problem" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="555.53,517.59,564.6642,513.9067,559.0081,513.9979,558.9168,508.3418,555.53,517.59" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="628" y="456.0669">Berinteraksi dengan</text></g><!--MD5=[1f732226da52ec859b1d0324db91788a]
+@startuml
+skinparam style strictuml
+skinparam classAttributeIconSize 0
+
+' Komponen konfigurasi
+class konfigurasi {
+  - BASE_DIR
+  - NAMA_DB
+  - DB_PATH
+  - KATEGORI_PROBLEM
+  - KATEGORI_DEFAULT
+}
+
+' Komponen HardwareDiagnoser
+class HardwareDiagnoser {
+  - _db_setup_done
+  + __init__()
+  + tambah_problem(p: Problem): bool
+  + get_semua_problems(): list[Problem]
+  + get_dataframe_problems(...): DataFrame
+  + hapus_problem(id: int): bool
+  + get_frekuensi_problem(...): DataFrame
+  + get_tren_problem_harian(...): DataFrame
+  + get_tren_problem_bulanan(...): DataFrame
+  + get_problem_by_id(id: int): Problem
+}
+
+' Komponen Database
+class database {
+  + get_db_connection(): Connection
+  + execute_query(...): int
+  + fetch_query(...): list/tuple
+  + get_dataframe(...): DataFrame
+  + setup_database_initial(): bool
+}
+
+' Komponen Problem
+class Problem {
+  - id
+  - nama_problem
+  - deskripsi_problem
+  - kategori_problem
+  - penyebab
+  - solusi
+  - tanggal_masuk
+  + __init__(...)
+  + to_dict(): dict
+  + __repr__(): str
+}
+
+' Komponen Streamlit App
+class streamlit_app {
+  - diagnoser
+  + halaman_tambah_masalah()
+  + halaman_daftar_masalah()
+  + halaman_analisis_tren()
+  + main()
+}
+
+' Relasi antar kelas
+konfigurasi <- - HardwareDiagnoser : 1
+HardwareDiagnoser - -> Problem : Mengelola
+database <- - Problem : 1
+streamlit_app - -> Problem : Berinteraksi dengan
+@enduml
+
+@startuml
+skinparam style strictuml
+skinparam classAttributeIconSize 0
+
+class konfigurasi {
+  - BASE_DIR
+  - NAMA_DB
+  - DB_PATH
+  - KATEGORI_PROBLEM
+  - KATEGORI_DEFAULT
+}
+
+class HardwareDiagnoser {
+  - _db_setup_done
+  + __init__()
+  + tambah_problem(p: Problem): bool
+  + get_semua_problems(): list[Problem]
+  + get_dataframe_problems(...): DataFrame
+  + hapus_problem(id: int): bool
+  + get_frekuensi_problem(...): DataFrame
+  + get_tren_problem_harian(...): DataFrame
+  + get_tren_problem_bulanan(...): DataFrame
+  + get_problem_by_id(id: int): Problem
+}
+
+class database {
+  + get_db_connection(): Connection
+  + execute_query(...): int
+  + fetch_query(...): list/tuple
+  + get_dataframe(...): DataFrame
+  + setup_database_initial(): bool
+}
+
+class Problem {
+  - id
+  - nama_problem
+  - deskripsi_problem
+  - kategori_problem
+  - penyebab
+  - solusi
+  - tanggal_masuk
+  + __init__(...)
+  + to_dict(): dict
+  + __repr__(): str
+}
+
+class streamlit_app {
+  - diagnoser
+  + halaman_tambah_masalah()
+  + halaman_daftar_masalah()
+  + halaman_analisis_tren()
+  + main()
+}
+
+konfigurasi <- - HardwareDiagnoser : 1
+HardwareDiagnoser - -> Problem : Mengelola
+database <- - Problem : 1
+streamlit_app - -> Problem : Berinteraksi dengan
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
